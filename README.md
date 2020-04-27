@@ -1,7 +1,7 @@
 # Plug&Play Android Apps in Kotlin
 
 <p align="center">
-  <img width="450" height="250" src="/media/header.png">
+  <img width="425" height="250" src="/media/header.png">
 </p>
 
 ## Getting Started
@@ -35,7 +35,7 @@
 > Simple calculator that handles both +/- numbers
 
 <p align="center">
-  <img src="/media/calculator.gif">
+  <img width="200" height="400" src="/media/calculator.gif">
 </p>
 
 ----------------------------------------------------------------------------------------------.
