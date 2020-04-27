@@ -52,6 +52,6 @@
 
 ## Coming Soon :crossed_fingers:
 
-* Flickr clone 
+* Flickr Browser
 
 * Task timer
