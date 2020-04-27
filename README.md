@@ -35,7 +35,7 @@
 > Simple calculator that handles both +/- numbers
 
 <p align="center">
-  <img width="200" height="400" src="/media/calculator.gif">
+  <img width="300" height="650" src="/media/calculator.gif">
 </p>
 
 ----------------------------------------------------------------------------------------------.
@@ -45,7 +45,13 @@
 > Video player including single and playlist functions
 
 <p align="center">
-  <img src="https://media.giphy.com/media/mCUYwCRYOQBHiMyPtt/giphy.gif">
+  <img src="/media/youtube.gif">
 </p>
 
 ----------------------------------------------------------------------------------------------
+
+## Coming Soon :crossed_fingers:
+
+* Flickr clone 
+
+* Task timer
