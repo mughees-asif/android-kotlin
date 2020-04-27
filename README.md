@@ -44,7 +44,7 @@
 
 > Video player including single and playlist functions
 
-<p align="center">
+<p width="300" height="650" align="center">
   <img src="/media/youtube.gif">
 </p>
 
