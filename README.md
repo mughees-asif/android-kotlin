@@ -35,7 +35,7 @@
 > Simple calculator that handles both +/- numbers
 
 <p align="center">
-  <img width="300" height="650" src="/media/calculator.gif">
+  <img width="300" height="600" src="/media/calculator.gif">
 </p>
 
 ----------------------------------------------------------------------------------------------
@@ -45,7 +45,7 @@
 > Video player including single and playlist functions
 
 <p align="center">
-  <img width="300" height="650" src="/media/youtube.gif">
+  <img width="300" height="600" src="/media/youtube.gif">
 </p>
 
 ----------------------------------------------------------------------------------------------
