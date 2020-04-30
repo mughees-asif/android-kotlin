@@ -54,4 +54,4 @@
 
 * Flickr Browser
 
-* Task timer
+* Task Timer
