@@ -1,11 +1,11 @@
 # Plug&Play Android Apps in Kotlin
 
+* **optimised**: portrait and landscape mode
+* **no messy widgets**: made with constraintLayouts
+
 <p align="center">
   <img width="425" height="250" src="/media/header.png">
 </p>
-
-### => optimised: portrait and landscape mode
-### => no messy widgets: made with constraintLayouts
 
 ## Getting Started
 
