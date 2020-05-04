@@ -53,8 +53,18 @@
 
 ----------------------------------------------------------------------------------------------
 
-## Coming Soon :crossed_fingers:
+## Project 3: Flickr Browser
 
-* Flickr Browser
+> Coming Soon :crossed_fingers:
 
-* Task Timer
+> In the meantime, explore the app's UML design flow below:-
+
+<p align="center">
+  <img width="425" height="250" src="/media/flickrUML.png">
+</p>
+
+----------------------------------------------------------------------------------------------
+
+## Project 4: Task Timer
+
+> Coming Soon :crossed_fingers:
