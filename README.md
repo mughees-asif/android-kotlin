@@ -4,8 +4,8 @@
   <img width="425" height="250" src="/media/header.png">
 </p>
 
-* **optimised**: portrait and landscape mode
-* **no messy widgets**: made with constraintLayouts
+### **optimised**: portrait and landscape mode
+### **no messy widgets**: made with constraintLayouts
 
 ## Getting Started
 
@@ -57,10 +57,10 @@
 
 > Coming Soon :crossed_fingers:
 
-> In the meantime, explore the app's UML design flow below:-
+* In the meantime, explore the app's UML design flow below:-
 
 <p align="center">
-  <img width="425" height="250" src="/media/flickrUML.png">
+  <img src="/media/flickrUML.png">
 </p>
 
 ----------------------------------------------------------------------------------------------
