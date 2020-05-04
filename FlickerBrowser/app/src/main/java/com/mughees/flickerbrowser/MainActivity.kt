@@ -1,5 +1,6 @@
 package com.mughees.flickerbrowser
 
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
@@ -16,10 +17,24 @@ class MainActivity : AppCompatActivity(), GetRawData.OnDownloadComplete, GetFlic
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
+        val url = createUri("https://api.flickr.com/services/feeds/photos_public.gne", "android,oreo","en-us", true)
         val getRawData = GetRawData(this)
-        getRawData.execute("https://api.flickr.com/services/feeds/photos_public.gne?tags=android,oreo&format=json&jsoncallback=1")
+        getRawData.execute(url)
 
         Log.d(TAG, "onCreate ends")
+    }
+
+    private fun createUri(baseURL: String, searchCriteria: String, lang: String, matchAll: Boolean): String {
+        Log.d(TAG, ".createUri starts")
+
+        return Uri.parse(baseURL).
+            buildUpon().
+            appendQueryParameter("tags", searchCriteria).
+            appendQueryParameter("tagmode", if (matchAll) "ALL" else "ANY").
+            appendQueryParameter("lang", lang).
+            appendQueryParameter("format", "json").
+            appendQueryParameter("nojsoncallback", "1").
+            build().toString()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -39,15 +54,16 @@ class MainActivity : AppCompatActivity(), GetRawData.OnDownloadComplete, GetFlic
             else -> super.onOptionsItemSelected(item)
         }
     }
-
+    
     override fun onDownloadComplete(data: String, status: DownloadStatus) {
         if (status == DownloadStatus.OK) {
             Log.d(TAG, "onDownloadComplete called")
+
             val getFlickrJsonData = GetFlickrJsonData(this)
             getFlickrJsonData.execute(data)
-
         } else {
-            Log.d(TAG, "onDownloadComplete failed status $status. Error message is: $data")
+            // download failed
+            Log.d(TAG, "onDownloadComplete failed with status $status. Error message is: $data")
         }
     }
 
@@ -60,5 +76,4 @@ class MainActivity : AppCompatActivity(), GetRawData.OnDownloadComplete, GetFlic
     override fun onError(exception: Exception) {
         Log.e(TAG, "onError called with ${exception.message}")
     }
-
 }
