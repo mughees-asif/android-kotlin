@@ -4,8 +4,8 @@
   <img width="425" height="250" src="/media/header.png">
 </p>
 
-### **optimised**: portrait and landscape mode
-### **no messy widgets**: made with constraintLayouts
+### => optimised: portrait and landscape mode
+### => no messy widgets: made with constraintLayouts
 
 ## Getting Started
 
