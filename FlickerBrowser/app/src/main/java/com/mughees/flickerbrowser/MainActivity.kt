@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity(), GetRawData.OnDownloadComplete {
 
         val getRawData = GetRawData(this)
         getRawData.execute("https://api.flickr.com/services/feeds/photos_public.gne?tags=android,oreo&format=json&jsoncallback=1")
+
         Log.d(TAG, "onCreate ends")
     }
 
