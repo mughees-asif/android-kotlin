@@ -4,6 +4,9 @@
   <img width="425" height="250" src="/media/header.png">
 </p>
 
+* **optimised**: portrait and landscape mode
+* **no messy widgets**: made with constraintLayouts
+
 ## Getting Started
 
 * Download <a href="https://developer.android.com/studio">Android Studio</a>.   
@@ -42,7 +45,7 @@
 
 ## Project 2: YouTube player
 
-> Video player including single and playlist functions
+> Youtube video player with single video and playlist functions
 
 <p align="center">
   <img width="300" height="600" src="/media/youtube.gif">
