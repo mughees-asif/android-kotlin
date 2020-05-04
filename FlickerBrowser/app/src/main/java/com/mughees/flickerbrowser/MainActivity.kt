@@ -34,7 +34,8 @@ class MainActivity : AppCompatActivity(), GetRawData.OnDownloadComplete, GetFlic
             appendQueryParameter("lang", lang).
             appendQueryParameter("format", "json").
             appendQueryParameter("nojsoncallback", "1").
-            build().toString()
+            build().
+            toString()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -54,7 +55,7 @@ class MainActivity : AppCompatActivity(), GetRawData.OnDownloadComplete, GetFlic
             else -> super.onOptionsItemSelected(item)
         }
     }
-    
+
     override fun onDownloadComplete(data: String, status: DownloadStatus) {
         if (status == DownloadStatus.OK) {
             Log.d(TAG, "onDownloadComplete called")
