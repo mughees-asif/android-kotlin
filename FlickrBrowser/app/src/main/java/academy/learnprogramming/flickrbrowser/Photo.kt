@@ -3,12 +3,8 @@ package academy.learnprogramming.flickrbrowser
 import android.os.Parcel
 import android.os.Parcelable
 
-/**
- * Created by timbuchalka for Android Oreo with Kotlin course
- * from www.learnprogramming.academy
- */
-class Photo(var title: String, var author: String, var authorId: String, var link: String, var tags: String,
-            var image: String) : Parcelable {
+class Photo(var title: String?, var author: String?, var authorId: String?, var link: String?, var tags: String?,
+            var image: String?) : Parcelable {
 
     constructor(parcel: Parcel) : this(
             parcel.readString(),

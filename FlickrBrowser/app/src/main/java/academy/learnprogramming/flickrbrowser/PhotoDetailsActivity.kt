@@ -13,7 +13,7 @@ class PhotoDetailsActivity : BaseActivity() {
         activateToolbar(true)
 
 //        val photo = intent.getSerializableExtra(PHOTO_TRANSFER) as Photo
-        val photo = intent.extras.getParcelable<Photo>(PHOTO_TRANSFER) as Photo
+        val photo = intent.extras?.getParcelable<Photo>(PHOTO_TRANSFER) as Photo
 
 //        photo_title.text = "Title: " + photo.title
         photo_title.text = resources.getString(R.string.photo_title_text, photo.title)
