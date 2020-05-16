@@ -1,5 +1,6 @@
 # Plug&Play Android Apps in Kotlin
 
+* **open-source**: use as you please 
 * **optimised**: portrait and landscape mode
 * **no messy widgets**: made with constraintLayouts
 
@@ -9,7 +10,7 @@
 
 ## Getting Started
 
-* Download <a href="https://developer.android.com/studio">Android Studio</a>.   
+* download <a href="https://developer.android.com/studio">Android Studio</a>.   
 
 * open terminal ```git clone git@github:mughees-asif/android-projects.git```
 
@@ -27,7 +28,7 @@
 
 * <a href="https://developer.android.com/studio/run/emulator">run</a> again
 
-* drop a <a href="https://github.com/mughees-asif">@me</a> in documentation 
+* drop a <a href="https://github.com/mughees-asif">@me</a> in documentation  
 
 * <a href="https://firebase.google.com/docs/android/setup">publish</a>
 
