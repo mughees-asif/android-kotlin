@@ -4,12 +4,13 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.preference.PreferenceManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : BaseActivity(), GetRawData.OnDownloadComplete,
@@ -116,11 +117,17 @@ class MainActivity : BaseActivity(), GetRawData.OnDownloadComplete,
         val sharedPref = PreferenceManager.getDefaultSharedPreferences(applicationContext)
         val queryResult = sharedPref.getString(FLICKR_QUERY, "")
 
-        if (queryResult.isNotEmpty()) {
-            val url = createUri("https://api.flickr.com/services/feeds/photos_public.gne", queryResult,"en-us", true)
-            val getRawData = GetRawData(this)
-            getRawData.execute(url)
+        if (queryResult != null) {
+            if (queryResult.isNotEmpty()) {
+                val url = createUri("https://api.flickr.com/services/feeds/photos_public.gne", queryResult,"en-us", true)
+                val getRawData = GetRawData(this)
+                getRawData.execute(url)
+            }
         }
         Log.d(TAG, ".onResume: ends")
     }
+}
+
+private fun RecyclerView.addOnItemTouchListener(recyclerItemClickListener: RecyclerItemClickListener) {
+
 }
