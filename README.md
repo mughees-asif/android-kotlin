@@ -30,7 +30,7 @@
 
 * drop a <a href="https://github.com/mughees-asif">@me</a> in documentation :+1:
 
-* <a href="https://firebase.google.com/docs/android/setup">publish</a>
+* quick <a href="https://firebase.google.com/docs/android/setup">publish</a>
 
 ----------------------------------------------------------------------------------------------
 
