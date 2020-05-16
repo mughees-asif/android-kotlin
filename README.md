@@ -1,6 +1,6 @@
 # Plug&Play Android Apps in Kotlin
 
-* **open-source**: use as you please 
+* **open-source**: base template, use as you wish :genie_man: 
 * **optimised**: portrait and landscape mode
 * **no messy widgets**: made with constraintLayouts
 
@@ -28,7 +28,7 @@
 
 * <a href="https://developer.android.com/studio/run/emulator">run</a> again
 
-* drop a <a href="https://github.com/mughees-asif">@me</a> in documentation  
+* drop a <a href="https://github.com/mughees-asif">@me</a> in documentation :+1:
 
 * <a href="https://firebase.google.com/docs/android/setup">publish</a>
 
