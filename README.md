@@ -1,6 +1,6 @@
 # Plug&Play Android Apps in Kotlin
 
-* **open-source**: base template, use as you wish :genie_man: 
+* **open-source**: base templates, use as you wish :genie_man: 
 * **optimised**: portrait and landscape mode
 * **no messy widgets**: made with constraintLayouts
 
