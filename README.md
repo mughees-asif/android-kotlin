@@ -59,7 +59,7 @@
 > Retrieves images from Flickr
 
 <p align="center">
-  <img width="300" height="600" src="/media/flickrbrowser.mp4">
+  <img width="300" height="600" src="/media/flickrbrowser.gif">
 </p>
 
 ### UML design flow:-
