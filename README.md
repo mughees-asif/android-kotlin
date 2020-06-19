@@ -56,13 +56,18 @@
 
 ## Project 3: Flickr Browser
 
-> Coming Soon :crossed_fingers:
+> Retrieves images from Flickr
 
-* In the meantime, explore the app's UML design flow below:-
+<p align="center">
+  <img width="300" height="600" src="/media/flickrbrowser.webm">
+</p>
+
+### UML design flow:-
 
 <p align="center">
   <img src="/media/flickrUML.png">
 </p>
+
 
 ----------------------------------------------------------------------------------------------
 
