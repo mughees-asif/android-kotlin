@@ -67,10 +67,3 @@
 <p align="center">
   <img src="/media/flickrUML.png">
 </p>
-
-
-----------------------------------------------------------------------------------------------
-
-## Project 4: Task Timer
-
-> Coming Soon :crossed_fingers:
